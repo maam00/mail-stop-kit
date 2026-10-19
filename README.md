@@ -9,6 +9,10 @@ For people using a local agent to clean up physical mail: separate your advertis
 
 Python 3.11+. The review core has no runtime dependencies, account, mailbox connection or model API. Optional Lob letters use your own key and account; you pay Lob directly. **Public alpha: `0.1.0rc3`.** Procedures apply to US mail. All examples are fictional.
 
+[![A fictional former resident's catalog becomes a sender-specific draft and a private ledger entry, still marked draft](docs/media/before-after.svg)](docs/before-after.md)
+
+[Read the exact draft and reproduce it](docs/before-after.md). When a physical letter is the right route, the [optional Lob adapter](docs/mailing.md) lets you review the PDF and cost, approve it, and submit through **your own Lob account**. No separate Mail Stop account or subscription.
+
 ## Try it in two minutes
 
 Download the [source](https://github.com/maam00/mail-stop-kit/archive/refs/heads/main.zip), or clone it:

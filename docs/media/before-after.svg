@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1010" viewBox="0 0 1440 1010" role="img" aria-labelledby="title desc">
+<title id="title">A former resident's catalog becomes a reviewed draft and a private ledger entry</title>
+<desc id="desc">Fictional example generated with Mail Stop Kit. Example Home Catalog sends advertising to Taylor Former, a confirmed former resident. The kit drafts a correction from the current occupant. Ledger state is draft and mail reduction verified is false. Nothing has been sent. Full output and reproduction commands are in docs/before-after.md.</desc>
+<rect width="1440" height="1010" rx="20" fill="#f4f2eb"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222b29">
+<text x="56" y="66" font-size="17" font-weight="700" letter-spacing="2">MAIL STOP KIT / FICTIONAL EXAMPLE</text>
+<text x="56" y="126" font-size="44" font-weight="700">An unwanted catalog. A request you can check.</text>
+<text x="56" y="165" font-size="23" fill="#53605b">Actual CLI output, presented for readability. Nothing sent.</text>
+<rect x="48" y="206" width="408" height="594" rx="14" fill="#e8e5db"/>
+<rect x="480" y="206" width="912" height="594" rx="14" fill="#ffffff"/>
+<text x="78" y="250" font-size="16" font-weight="700" letter-spacing="2" fill="#53605b">BEFORE / SELECTED MAIL</text>
+<rect x="78" y="278" width="348" height="248" rx="5" fill="#faf9f5" stroke="#c7c9c0"/>
+<text x="98" y="313" font-size="18" font-weight="700">Example Home Catalog</text>
+<path d="M340 295h62v54h-62z" fill="none" stroke="#adb7af" stroke-dasharray="4 4"/>
+<text x="98" y="401" font-size="25" font-weight="700">Taylor Former</text>
+<text x="98" y="436" font-size="20">100 Example Lane Unit 4</text>
+<text x="98" y="466" font-size="20">Exampletown, FL 00000</text>
+<text x="78" y="578" font-size="22" font-weight="700">The household confirmed:</text>
+<text x="78" y="616" font-size="23">Taylor no longer lives here.</text>
+<text x="78" y="675" font-size="21" fill="#53605b">This is advertising addressed</text>
+<text x="78" y="706" font-size="21" fill="#53605b">only to Taylor. No “Current</text>
+<text x="78" y="737" font-size="21" fill="#53605b">Resident” wording.</text>
+<text x="514" y="250" font-size="16" font-weight="700" letter-spacing="2" fill="#28705d">AFTER / DRAFT FOR REVIEW</text>
+<text x="514" y="292" font-size="23" font-weight="700">To: Example Home Catalog</text>
+<text x="514" y="328" font-size="23">Subject: Promotional postal mail correction</text>
+<path d="M514 351h844" stroke="#dedfd7"/>
+<text x="514" y="392" font-size="23">I am a current occupant of the address below. Advertising addressed to</text><text x="514" y="425" font-size="23">Taylor Former reaches this household, but the household has confirmed that</text><text x="514" y="458" font-size="23">this person no longer lives here. Please correct your advertising mailing</text><text x="514" y="491" font-size="23">records for this name at this address. I am contacting you as the current</text><text x="514" y="524" font-size="23">occupant, not on that person&#x27;s behalf. This is not a request to close or</text><text x="514" y="557" font-size="23">change their accounts.</text><text x="514" y="639" font-size="22">Mailing address:</text>
+<text x="514" y="671" font-size="22">100 Example Lane Unit 4</text>
+<text x="514" y="703" font-size="22">Exampletown, FL 00000</text>
+<text x="514" y="752" font-size="22">Please confirm whether you can process this request.</text>
+<rect x="48" y="822" width="1344" height="140" rx="14" fill="#203c33"/>
+<text x="78" y="864" font-size="16" font-weight="700" letter-spacing="2" fill="#bad2c3">PRIVATE LEDGER / ACTUAL LOCAL STATE</text>
+<text x="78" y="907" font-family="monospace" font-size="25" fill="#ffffff">state: draft</text>
+<text x="470" y="907" font-family="monospace" font-size="25" fill="#ffffff">mail_reduction_verified: false</text>
+<text x="78" y="941" font-size="20" fill="#d3e2d9">Review the wording and verify the contact route before contacting the sender.</text>
+</g>
+</svg>
