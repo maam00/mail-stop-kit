@@ -9,3 +9,9 @@ For code, add a synthetic regression for the behavior that would otherwise misle
 Install `.[lob]`, then run `.venv/bin/python -m unittest discover -s tests -v` including the offline adapter tests. No API keys or network should be required. Include a short before/after example and the checks you ran.
 
 Never submit real envelope images, inbox samples, household names or addresses, signatures, private receipts, keys or access links. Recreate the relevant facts with invented data like the examples. Do not use GitHub issues as a support inbox for private mail.
+
+## Public development history
+
+The initial publication commit is a reviewed extraction from earlier private Mailroom work. It is not the full development history; the private service and household archive were deliberately excluded.
+
+Keep new changes in focused commits with a concrete purpose and relevant validation. Separate unrelated fixes and documentation changes so readers can follow how the kit improves. Preserve that public history going forward. Do not reconstruct, backdate or publish private history to make the repository appear older.
