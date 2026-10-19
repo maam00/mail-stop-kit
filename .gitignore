@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.private/
+.env
+.env.*
+*.sqlite*
+*.db
+.DS_Store
+coverage.xml
+.coverage

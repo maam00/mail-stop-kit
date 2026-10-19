@@ -1,0 +1,65 @@
+[
+  {
+    "id": "own-catalog",
+    "sender": "Example Catalog Company",
+    "recipient": "Alex Example",
+    "address": "100 Example Lane Unit 4\nExampletown, FL 00000",
+    "kind": "advertisement",
+    "evidence": "Synthetic seasonal catalog cover",
+    "reviewed_fields": ["sender", "recipient", "address", "kind"],
+    "received_on": "2026-10-01"
+  },
+  {
+    "id": "former-catalog",
+    "sender": "Example Home Catalog",
+    "recipient": "Taylor Former",
+    "address": "100 Example Lane Unit 4\nExampletown, FL 00000",
+    "kind": "advertisement",
+    "mail_class": "marketing",
+    "endorsements": [],
+    "evidence": "Synthetic promotional catalog, no service endorsement",
+    "reviewed_fields": ["sender", "recipient", "address", "kind", "mail_class", "endorsements"],
+    "received_on": "2026-10-02"
+  },
+  {
+    "id": "or-current-resident",
+    "sender": "Example Coupon Mailer",
+    "recipient": "Taylor Former or Current Resident",
+    "address": "100 Example Lane Unit 4\nExampletown, FL 00000",
+    "kind": "advertisement",
+    "evidence": "Synthetic coupon envelope",
+    "reviewed_fields": ["sender", "recipient", "address", "kind"],
+    "received_on": "2026-10-03"
+  },
+  {
+    "id": "unfamiliar-name",
+    "sender": "Example Catalog Company",
+    "recipient": "Jamie Unknown",
+    "address": "100 Example Lane Unit 4\nExampletown, FL 00000",
+    "kind": "advertisement",
+    "evidence": "Synthetic catalog addressed to an unfamiliar person",
+    "reviewed_fields": ["sender", "recipient", "address", "kind"],
+    "received_on": "2026-10-04"
+  },
+  {
+    "id": "important-looking",
+    "sender": "Example Benefit Provider",
+    "recipient": "Alex Example",
+    "address": "100 Example Lane Unit 4\nExampletown, FL 00000",
+    "kind": "advertisement",
+    "evidence": "Synthetic envelope says Explanation of Benefits",
+    "reviewed_fields": ["sender", "recipient", "address", "kind"],
+    "received_on": "2026-10-05"
+  },
+  {
+    "id": "former-letter",
+    "sender": "Example Correspondent",
+    "recipient": "Taylor Former",
+    "address": "100 Example Lane Unit 4\nExampletown, FL 00000",
+    "kind": "unknown",
+    "mail_class": "first_class",
+    "evidence": "Synthetic sealed letter; contents unknown",
+    "reviewed_fields": ["recipient", "address", "mail_class"],
+    "received_on": "2026-10-06"
+  }
+]

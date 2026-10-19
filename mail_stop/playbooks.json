@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-10-19",
+  "scope": "United States physical mail. Read official instructions again before a submission; this file never authorizes contact or payment.",
+  "playbooks": [
+    {
+      "id": "former-resident",
+      "title": "Mail addressed only to a confirmed former resident",
+      "steps": [
+        "Confirm with the household that the named person no longer lives there. An unfamiliar name alone is insufficient.",
+        "For the correct address but an absent named recipient, mark the unopened envelope Not at this address without covering the address and return it to the carrier or a USPS collection box.",
+        "For mail delivered to the wrong address, return it to the carrier or mailbox without writing an endorsement or covering the address.",
+        "Unendorsed undeliverable USPS Marketing Mail is disposed of rather than automatically returned; contact the advertiser separately if an appropriate verified address-correction route is available."
+      ],
+      "limits": "No change of address, account changes, or identity-certified opt-outs on behalf of former residents. Returning an envelope does not prove list suppression.",
+      "sources": ["https://faq.usps.com/articles/Knowledge/How-is-Undeliverable-and-Misdelivered-Mail-Handled"]
+    },
+    {
+      "id": "current-resident",
+      "title": "Current Resident, Occupant, and address-based advertising",
+      "steps": [
+        "Treat Jane Doe or Current Resident as addressed to the occupant, even when Jane Doe moved away.",
+        "For advertising, prepare an address-based promotional opt-out to the verified sender. Do not claim the named person is authorizing it."
+      ],
+      "limits": "USPS recognizes occupant and exceptional address formats. A correctly addressed piece is not former-resident misdelivery solely because one printed name moved. No universal opt-out is promised for every saturation mailing.",
+      "sources": ["https://pe.usps.com/text/dmm300/602.htm"]
+    },
+    {
+      "id": "local-delivery-office",
+      "title": "Repeated delivery errors",
+      "steps": [
+        "Verify which local delivery office serves the address. Prepare a factual complaint with selected dates and envelope evidence.",
+        "A postal customer may inquire or complain at a Post Office by phone, email, letter, or in person. The agent may draft; the person approves any specific contact.",
+        "If choosing a letter, verify its destination and preview the exact contents before sending or buying postage."
+      ],
+      "limits": "Certified mail is optional, not a required suppression procedure. No PS Form 3982 prescription, correction deadline, or promised outcome is included. A delivery receipt does not prove the requested correction happened.",
+      "sources": ["https://pe.usps.com/text/dmm300/608.htm", "https://www.usps.com/ship/insurance-extra-services.htm"]
+    },
+    {
+      "id": "catalogs",
+      "title": "Sender-specific catalog requests",
+      "steps": [
+        "Use the sender's official website to verify its postal marketing contact or preference form; envelope links and QR codes are not proof of legitimacy.",
+        "Alternatively, Catalog Choice provides a sender search and opt-out workflow. The person should review that service's current account, eligibility and privacy requirements before using it.",
+        "Submit only the approved request and record what the sender or service actually acknowledged."
+      ],
+      "limits": "The kit has no catalog-provider integration. It does not assert a fixed waiting period or that every sender participates.",
+      "sources": ["https://www.catalogchoice.org/"]
+    },
+    {
+      "id": "dmachoice",
+      "title": "Broader marketing preferences",
+      "steps": [
+        "Visit DMAchoice for the person's own catalog and marketing-mail preferences.",
+        "Read the current eligibility, scope and fee on the official site. Obtain approval of the actual fee before paying."
+      ],
+      "limits": "This is not a universal stop for all mail or a blanket authority to enroll former residents. Fees are deliberately not hardcoded. The FTC page and provider checkout may have different update dates.",
+      "sources": ["https://www.dmachoice.org/", "https://consumer.ftc.gov/articles/how-stop-junk-mail"]
+    },
+    {
+      "id": "prescreen",
+      "title": "Prescreened credit and insurance offers",
+      "steps": [
+        "The named consumer can use OptOutPrescreen, the consumer reporting industry's official service.",
+        "The official service offers a five-year electronic opt-out; permanent opt-out requires the signed election form returned by mail.",
+        "Have the person enter sensitive identity information directly on the official site. Do not put SSNs, dates of birth or signatures in this kit's ledger."
+      ],
+      "limits": "A current-occupant request does not authorize changing another person's credit-file preferences. This affects participating reporting companies' firm-offer lists, not all advertising.",
+      "sources": ["https://www.optoutprescreen.com/", "https://consumer.ftc.gov/articles/how-stop-junk-mail"]
+    }
+  ]
+}

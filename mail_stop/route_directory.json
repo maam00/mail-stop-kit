@@ -1,0 +1,127 @@
+{
+  "checked_on": "2026-10-19",
+  "note": "Public research only. Explicit case matching, current verification and human approval are still required. No route is automatically applied.",
+  "routes": [
+    {
+      "purpose": "promotional_postal_mail",
+      "checked_on": "2026-10-19",
+      "verification": "researched",
+      "scope_confirmed": false,
+      "authority_confirmed": false,
+      "steps_confirmed": false,
+      "confirmation_required": false,
+      "review_on": null,
+      "requires_physical_enclosure": false,
+      "directory_id": "valpak",
+      "sender_exact": "Valpak",
+      "provider_scope": "Valpak address-based postal advertising",
+      "channel": "form",
+      "destination": "https://www.valpak.com/remove-address",
+      "source_url": "https://www.valpak.com/remove-address",
+      "eligibility": "The requester must have authority for the full delivery address, including the unit.",
+      "required_steps": [
+        "Verify the envelope is Valpak, not a similar coupon mailer.",
+        "Supply the complete address and unit, and the required name, phone and email in the official form.",
+        "Review the address-authority attestation yourself before submitting."
+      ],
+      "processing_window": "The provider describes a delay of several weeks; it does not specify an exact date."
+    },
+    {
+      "purpose": "promotional_postal_mail",
+      "checked_on": "2026-10-19",
+      "verification": "researched",
+      "scope_confirmed": false,
+      "authority_confirmed": false,
+      "steps_confirmed": false,
+      "confirmation_required": false,
+      "review_on": null,
+      "requires_physical_enclosure": false,
+      "directory_id": "save",
+      "sender_exact": "Save",
+      "provider_scope": "Save mailer through its broader privacy-rights process",
+      "channel": "form",
+      "destination": "https://www.save.com/manage",
+      "source_url": "https://www.save.com/manage",
+      "eligibility": "The linked process can affect advertising and personal-data preferences beyond postal mail; review each option and your authority.",
+      "required_steps": [
+        "Verify the sender is the Save mailer.",
+        "Open the Privacy Rights Request link from the official manage page.",
+        "Review the broader deletion/opt-out choices before selecting anything; a postal-mail goal does not automatically authorize all privacy changes.",
+        "Complete only the identity or verification steps actually required of the authorized requester."
+      ],
+      "processing_window": "The provider says mailings can continue for up to six weeks."
+    },
+    {
+      "purpose": "promotional_postal_mail",
+      "checked_on": "2026-10-19",
+      "verification": "researched",
+      "scope_confirmed": false,
+      "authority_confirmed": false,
+      "steps_confirmed": false,
+      "confirmation_required": false,
+      "review_on": null,
+      "requires_physical_enclosure": false,
+      "directory_id": "llbean-business",
+      "sender_exact": "L.L.Bean for Business",
+      "provider_scope": "L.L.Bean for Business catalog only",
+      "channel": "email",
+      "destination": "BusinessPreferences@LLBean.com",
+      "source_url": "https://www.llbeanbusiness.com/contact-us.html",
+      "eligibility": "This address is specifically for business-catalog removal, not the consumer catalog or another person's account.",
+      "required_steps": [
+        "Check that the physical catalog is L.L.Bean for Business.",
+        "Copy the business name, contact name and yellow-box catalog number exactly from the label.",
+        "Confirm authority for this removal; report former-recipient misdelivery as the current occupant without impersonation."
+      ],
+      "processing_window": "The provider says one or two further catalog mailings may arrive after processing."
+    },
+    {
+      "purpose": "promotional_postal_mail",
+      "checked_on": "2026-10-19",
+      "verification": "researched",
+      "scope_confirmed": false,
+      "authority_confirmed": false,
+      "steps_confirmed": false,
+      "confirmation_required": false,
+      "review_on": null,
+      "requires_physical_enclosure": false,
+      "directory_id": "llbean-consumer-phone",
+      "sender_exact": "L.L.Bean",
+      "provider_scope": "L.L.Bean consumer catalog direct contact",
+      "channel": "phone",
+      "destination": "800-441-5713",
+      "source_url": "https://www.llbean.com/llb/shop/510631?page=catalogs",
+      "eligibility": "Use direct customer contact for the consumer catalog. The company does not accept third-party catalog-removal services.",
+      "required_steps": [
+        "Verify this is the consumer catalog, not L.L.Bean for Business.",
+        "Have the actual catalog mailing label and the specific advertising-only request ready.",
+        "The household contacts the company directly; an agent may help prepare the request without posing as another recipient."
+      ],
+      "processing_window": ""
+    },
+    {
+      "purpose": "promotional_postal_mail",
+      "checked_on": "2026-10-19",
+      "verification": "researched",
+      "scope_confirmed": false,
+      "authority_confirmed": false,
+      "steps_confirmed": false,
+      "confirmation_required": false,
+      "review_on": null,
+      "requires_physical_enclosure": true,
+      "directory_id": "llbean-consumer-postal",
+      "sender_exact": "L.L.Bean",
+      "provider_scope": "L.L.Bean consumer catalog direct postal contact",
+      "channel": "postal",
+      "destination": "L.L.Bean Inc.\nDept CFM\nFreeport, ME 04033-0001\nUSA",
+      "source_url": "https://www.llbean.com/llb/shop/510631?page=catalogs",
+      "eligibility": "The household contacts the company directly and includes the actual catalog address label; third-party opt-out services are not accepted.",
+      "required_steps": [
+        "Verify this is the consumer catalog.",
+        "Write the specific advertising-only instruction and include the catalog mailing label.",
+        "This kit cannot insert a physical label into a Lob envelope. Print/mail this route manually or use direct phone contact."
+      ],
+      "processing_window": ""
+    }
+  ]
+}

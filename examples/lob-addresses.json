@@ -1,0 +1,5 @@
+{
+  "from": {"name": "Alex Example", "address_line1": "100 Example Lane", "address_line2": "Unit 4", "address_city": "Exampletown", "address_state": "FL", "address_zip": "00000"},
+  "to": {"name": "Local Postmaster / Delivery Supervisor", "address_line1": "99 Example Postal Way", "address_city": "Exampletown", "address_state": "FL", "address_zip": "00000"},
+  "destination_verified": true
+}
