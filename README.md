@@ -13,7 +13,17 @@ Python 3.11+. The review core has no runtime dependencies, account, mailbox conn
 
 [Read the exact draft and reproduce it](docs/before-after.md). When a physical letter is the right route, the [optional Lob adapter](docs/mailing.md) lets you review the PDF and cost, approve it, and submit through **your own Lob account**. No separate Mail Stop account or subscription.
 
-## Try it in two minutes
+## Start with an assistant you already use
+
+**Don't use a terminal?** Open the [plain-English start guide and full copy-and-paste prompt](docs/assistant-start.md). Your assistant can review USPS Informed Delivery emails through your existing authorized Gmail connection, use envelope photos you share, or help you sign up for Informed Delivery. Start with a review table and drafts. No installation or Lob account is needed for that first step.
+
+> Help me clean up unwanted physical mail using this repo. Look at the last seven days of USPS Informed Delivery emails in the Gmail account I identify, if you have authorized access. Otherwise help me connect through your normal account flow or use photos I share. If I'm not enrolled, help me sign up through USPS. Read the full guide, ask who lives here and what I've already tried, and show me the proposed requests before contacting anyone.
+
+The guide can be read as instructions by an assistant such as Muse. Available image, browser, email and file tools determine what it can actually do. This is not an installed Muse connector or a verified Muse integration. Reading the instructions does not run the Python checks or create the kit's private database.
+
+[Already tried returning it?](docs/still-arriving.md) Work through the recurring-mail checklist before repeating a request.
+
+## Try the Python kit in two minutes
 
 Download the [source](https://github.com/maam00/mail-stop-kit/archive/refs/heads/main.zip), or clone it:
 

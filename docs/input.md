@@ -2,6 +2,8 @@
 
 Use JSON files outside this repository for real household data. [examples/](../examples/) is entirely fictional. There are no automatic image, mailbox or model integrations. A person or their existing agent transcribes selected evidence, then a person checks the fields used for a draft.
 
+Selected evidence may come from a scoped Informed Delivery email review through the assistant's existing authorized Gmail/email tools. Keep message IDs, image references, digest dates, email receipt times and source type in a separate private source record; they are not extra fields accepted by this schema. `received_on` records the observation date, not asserted physical delivery. Label a preview explicitly in `evidence`. Exclude decorative/advertising images and package notifications from letter observations; use `is_mailpiece: false` for a retained non-mailpiece record. A repeated import of the same message/image keeps its observation ID; a distinct dated observation gets a new ID even if it looks similar. The kit does not fetch those messages or perform image classification.
+
 `household.json`:
 
 ```json
